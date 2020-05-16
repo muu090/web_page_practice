@@ -65,7 +65,7 @@ nav > :first-child {
   width: 920px;
 }
 
-.portfolio-text h2 {
+.content-title {
   font-size: 32px;
   text-align: center;
   color: #000000;
@@ -77,7 +77,7 @@ nav > :first-child {
   border-bottom: 3px solid #ec715f;
 }
 
-.portfolio-text p {
+.content-text {
   margin: 30px 0;
   font-size: 16px;
   text-align: center;
@@ -128,4 +128,31 @@ nav > :first-child {
 
 .six{
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+  padding: 90px 0;
+  width: 980px;
+}
+
+.feature-item {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+}
+
+.feature-items > :last-child {
+  margin-right: 0;
+}
+
+.feature-icon {
+  font-size: 60px;
+  text-align: center;
+}
+
+.feature-title {
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
 }
