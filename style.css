@@ -57,6 +57,9 @@ nav > :first-child {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.content:nth-child(odd) {
   background-color: #eceff1;
 }
 
@@ -194,3 +197,44 @@ nav > :first-child {
 .profile-text:last-child {
   margin-bottom: 0;
 }
+
+.contact {
+  margin: 90px 0;
+  width: 800px;
+}
+
+.contact-items {
+  float: left;
+  width: 50%;
+}
+
+.contact-title {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.contact-body {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-decoration: underline; 
+}
+
+.tel > .contact-body {
+  margin-bottom: 0;
+}
+
+.social {
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.social-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
